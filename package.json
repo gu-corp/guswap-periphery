@@ -14,8 +14,8 @@
     "contracts"
   ],
   "dependencies": {
-    "@uniswap/lib": "4.0.1-alpha",
-    "@gulabs/v2-core": "https://github.com/gulabs/v2-core.git"
+    "@gulabs/guswap-core": "https://github.com/gulabs/guswap-core.git#v0.0.1",
+    "@uniswap/lib": "4.0.1-alpha"
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",

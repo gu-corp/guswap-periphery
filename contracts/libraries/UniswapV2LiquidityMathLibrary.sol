@@ -1,7 +1,7 @@
 pragma solidity >=0.5.0;
 
-import '@gulabs/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
-import '@gulabs/v2-core/contracts/interfaces/IUniswapV2Factory.sol';
+import '@gulabs/guswap-core/contracts/interfaces/IUniswapV2Pair.sol';
+import '@gulabs/guswap-core/contracts/interfaces/IUniswapV2Factory.sol';
 import '@uniswap/lib/contracts/libraries/Babylonian.sol';
 import '@uniswap/lib/contracts/libraries/FullMath.sol';
 

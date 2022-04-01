@@ -215,9 +215,9 @@
     "@ethersproject/properties" "^5.5.0"
     "@ethersproject/strings" "^5.5.0"
 
-"@gulabs/v2-core@https://github.com/gulabs/v2-core.git":
-  version "1.0.1"
-  resolved "https://github.com/gulabs/v2-core.git#1537dc7f61b96082e251876fc439e912ae620d9f"
+"@gulabs/guswap-core@https://github.com/gulabs/guswap-core.git#v0.0.1":
+  version "0.0.1"
+  resolved "https://github.com/gulabs/guswap-core.git#3a7cf6c5936a0a7ef5e6a057938a3d94ae983519"
   dependencies:
     scrypt "^6.0.3"
 
