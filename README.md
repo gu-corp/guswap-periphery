@@ -1,24 +1,13 @@
-# Uniswap V2
+# Sample Hardhat Project
 
-[![Actions Status](https://github.com/Uniswap/uniswap-v2-periphery/workflows/CI/badge.svg)](https://github.com/Uniswap/uniswap-v2-periphery/actions)
-[![npm](https://img.shields.io/npm/v/@uniswap/v2-periphery?style=flat-square)](https://npmjs.com/package/@uniswap/v2-periphery)
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
 
-In-depth documentation on Uniswap V2 is available at [uniswap.org](https://uniswap.org/docs).
+Try running some of the following tasks:
 
-The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@uniswap/v2-periphery@latest/).
-
-# Local Development
-
-The following assumes the use of `node@>=10`.
-
-## Install Dependencies
-
-`yarn`
-
-## Compile Contracts
-
-`yarn compile`
-
-## Run Tests
-
-`yarn test`
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat ignition deploy ./ignition/modules/Lock.ts
+```
